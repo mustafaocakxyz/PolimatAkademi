@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polimat Akademi - Her Alanda En İyisi Olmak İsteyenlerin Platformu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- Logo Section -->
+            <div class="nav-logo">
+                <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="logo-text">Polimat Akademi</span>
+            </div>
+
+            <!-- Navigation Links -->
+            <div class="nav-links">
+                <a href="#yorumlar" class="nav-link">Yorumlar</a>
+                <a href="#fiyatlar" class="nav-link">Fiyatlar</a>
+                <a href="#sss" class="nav-link">SSS</a>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="nav-actions">
+                <a href="#giris" class="btn-login">Giriş yap</a>
+                <a href="#kayit" class="btn-signup">Polimat ol</a>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+            <a href="#yorumlar" class="nav-link">Yorumlar</a>
+            <a href="#fiyatlar" class="nav-link">Fiyatlar</a>
+            <a href="#sss" class="nav-link">SSS</a>
+            <div class="nav-actions">
+                <a href="#giris" class="btn-login">Giriş yap</a>
+                <a href="#kayit" class="btn-signup">Polimat ol</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Her alanda en iyisi olmak isteyenlerin platformu</h1>
+                <p class="hero-description">2027 yılında %1'lik kesime dahil olman için gereken her şey.</p>
+            </div>
+
+            <!-- Social Proof Section -->
+            <!-- Note: To use images instead of letters, replace <span> with <img src="path/to/image.jpg" alt="Avatar"> -->
+            <div class="social-proof">
+                <div class="avatar-stack">
+                    <div class="avatar" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <span>A</span>
+                    </div>
+                    <div class="avatar" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <span>B</span>
+                    </div>
+                    <div class="avatar" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <span>C</span>
+                    </div>
+                    <div class="avatar" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                        <span>D</span>
+                    </div>
+                    <div class="avatar" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <span>E</span>
+                    </div>
+                    <div class="avatar" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);">
+                        <span>F</span>
+                    </div>
+                </div>
+                <p class="social-proof-text">
+                    <span class="student-count" data-count="137">137+</span> kişi Polimat Akademi'de
+                </p>
+            </div>
+
+            <!-- Course Boxes Grid -->
+            <div class="course-boxes">
+                <!-- Box 1: Programlama -->
+                <div class="course-box" data-section="programlama">
+                    <div class="box-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 3L6 21L12 18L18 21L16 3L12 6L8 3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8 12L16 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="box-title">Programlama</h3>
+                    <a href="#programlama" class="box-link">
+                        Kursa katıl
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Box 2: İngilizce Konuşma -->
+                <div class="course-box" data-section="ingilizce">
+                    <div class="box-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8 10C8 11.1 8.9 12 10 12C11.1 12 12 11.1 12 10C12 8.9 11.1 8 10 8C8.9 8 8 8.9 8 10Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 18C12 16 10 14 8 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M16 10C16 11.1 16.9 12 18 12C19.1 12 20 11.1 20 10C20 8.9 19.1 8 18 8C16.9 8 16 8.9 16 10Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 18C12 16 14 14 16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="box-title">İngilizce Konuşma</h3>
+                    <a href="#ingilizce" class="box-link">
+                        Kursa katıl
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Box 3: Yapay Zeka -->
+                <div class="course-box" data-section="yapay-zeka">
+                    <div class="box-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="12" cy="7" r="1" fill="currentColor"/>
+                            <circle cx="12" cy="12" r="1" fill="currentColor"/>
+                            <circle cx="12" cy="17" r="1" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3 class="box-title">Yapay Zeka</h3>
+                    <a href="#yapay-zeka" class="box-link">
+                        Kursa katıl
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Box 4: Bütün Kursları Gör -->
+                <div class="course-box" data-section="tum-kurslar">
+                    <div class="box-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L2 7L7 12L2 17L12 22L22 17L17 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="box-title">Bütün Kursları Gör</h3>
+                    <a href="#tum-kurslar" class="box-link">
+                        Kursa katıl
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
